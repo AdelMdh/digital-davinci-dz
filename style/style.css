@@ -133,7 +133,7 @@ section{
     font-size: 24px;
 }
 
-/* la deuxieume page */
+/* la section de les avantage */
 
 .section2{
     background-color: #fff;
@@ -147,7 +147,23 @@ section{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-top: 50px;
+    margin-top: 200px;
     width: 100vw;
+}
+.rondsEndDescription{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.rond{
+text-align: center;
 
+}
+.rond i{
+color: #fff;
+font-size: 90px;
+background-color:#00051F;
+padding: 100px 100px;
+border-radius: 50%;
+margin-bottom: 30px;
 }
