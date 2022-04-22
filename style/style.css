@@ -70,7 +70,7 @@ width: 100vw;
 
 
 
-/* page d'acueil */
+/* la premiére page */
 
 section{
     width: 100vw;
@@ -131,4 +131,23 @@ section{
     margin-top: 30px;
     font-weight: 300;
     font-size: 24px;
+}
+
+/* la deuxieume page */
+
+.section2{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+
+    
+}
+.section2 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+    width: 100vw;
+
 }
