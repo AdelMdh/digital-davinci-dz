@@ -75,6 +75,7 @@ width: 100vw;
 section{
     width: 100vw;
     height: 100vh;
+    background-color: #00051F ;
 
 }
 .container{
@@ -86,9 +87,9 @@ section{
 
 }
 .container img{
-    width: 500px;
+    width: 350px;
     height: auto;
-    margin-top: 100px;
+    margin-top: 145px;
     margin-right: 50px;
 }
 
@@ -97,14 +98,37 @@ section{
 /* le context de la premiére page */
 
 .context{
-    margin-top: 100px;
+    margin-right: 140px;
+    margin-top: 130px;
+    text-align: center;
 }
 .context p{
     font-size: 50px;
     text-align: center;
     font-weight: 900;
+    color: #fff;
+    margin-bottom: 30px;
 }
 .context p span{
     font-weight: 400;
     font-size: 38px;
+}
+.context a {
+    padding: 17px 90px;
+    margin-top: 40px;
+    background-color: #CA4155;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: 0.2s ease;
+}
+.context a:hover{
+    background-color: #b73045;
+}
+.context h3{
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 24px;
 }
