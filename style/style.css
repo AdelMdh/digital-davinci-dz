@@ -150,20 +150,55 @@ section{
     margin-top: 200px;
     width: 100vw;
 }
+
+/* les ronds des avantage */
+
+
 .rondsEndDescription{
     display: flex;
     justify-content: space-around;
     
 }
-.rond{
+.rond1, .rond2, .rond3, .rond4{
 text-align: center;
 
 }
-.rond i{
+.rond1{padding-bottom: 900px;}.rond3{padding-top: 50px;}
+.rond4{
+    padding-bottom: 800px;
+}
+
+.rond1 i{
 color: #fff;
-font-size: 90px;
+font-size: 100px;
+background-color:#00051F;
+padding: 80px 80px;
+border-radius: 50%;
+margin-bottom: 30px;
+}
+.rond2 i{
+
+color: #fff;
+font-size: 120px;
 background-color:#00051F;
 padding: 100px 100px;
 border-radius: 50%;
 margin-bottom: 30px;
 }
+.rond3 i{
+color: #fff;
+font-size: 50px;
+background-color:#00051F;
+padding: 50px 50px;
+border-radius: 50%;
+margin-bottom: 30px;
+}
+.rond4 i{
+color: #fff;
+font-size: 90px;
+background-color:#00051F;
+padding: 90px 90px;
+border-radius: 50%;
+margin-bottom: 30px;
+}
+
