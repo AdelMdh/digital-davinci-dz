@@ -127,16 +127,17 @@ section{
     background-color: #b73045;
 }
 .context h3{
-    color: #fff;
-    margin-top: 30px;
+    color: #DBE6FF;
+    padding-top: 30px;
     font-weight: 300;
     font-size: 24px;
 }
 
+
 /* la section de les avantage */
 
 .section2{
-    background-color: #fff;
+    background-color: #DBE6FF;
     width: 100vw;
     height: 100vh;
     background-attachment: fixed;
@@ -147,8 +148,10 @@ section{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-top: 200px;
+    padding-top: 200px;
     width: 100vw;
+    margin-bottom: 100px;
+
 }
 
 /* les ronds des avantage */
@@ -159,14 +162,17 @@ section{
     justify-content: space-around;
     
 }
-.rond1, .rond2, .rond3, .rond4{
+
+.rond2{
 text-align: center;
 
 }
-.rond1{padding-bottom: 900px;}.rond3{padding-top: 50px;}
-.rond4{
-    padding-bottom: 800px;
-}
+.rond1{padding-bottom: 900px;
+         text-align: center;}
+.rond3{padding-top: 50px;
+         text-align: center;}
+.rond4{padding-bottom: 800px;
+         text-align: center;}
 
 .rond1 i{
 color: #fff;
