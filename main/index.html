@@ -12,20 +12,17 @@
     <title>digital davinci</title>
 </head>
 <body>
-    <nav>
+    <nav id="nav">
        <div class="navigation">
             <p class="logo">Digital Davinci Dz</p>
-            <ul>
+            <ul id="navText">
                 <li><a href="#">الرئيسية</a></li>
                 <li><a href="#">الفئات</a></li>
                 <li><a href="#">معلومات عنا</a></li>
                 <li><a href="#">اتصل بنا</a></li>
             </ul>
         </div>
-        <div class="backgrond">
-            <img class="bgLogo" src="/src/background logo.svg" alt="">
-            <img class="bgNav" src="/src/background nav.svg" alt="">
-        </div>
+       
     </nav>
     <section id="main-container">
      <div class="container">
@@ -70,7 +67,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script>
         vue = new Vue ({
-
+            el: "#nav"
         })
     </script>
 
